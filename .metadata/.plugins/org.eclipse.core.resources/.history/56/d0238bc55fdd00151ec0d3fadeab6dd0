@@ -1,0 +1,18 @@
+package com.tutorialspoint.bpp;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainAppBPP {
+   public static void MainAppBPP(String[] args) {
+
+      AbstractApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+
+      HelloWorldBPP obj = (HelloWorldBPP) context.getBean("");
+      obj.getMessage();
+      context.registerShutdownHook();
+   }
+}
+
+
+

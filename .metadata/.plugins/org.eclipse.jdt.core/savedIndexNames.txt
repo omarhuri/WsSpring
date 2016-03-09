@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+D:\sura_desarrollo\WsSpring\.metadata\.plugins\org.eclipse.jdt.core
+2414782498.index
+4064621261.index
+4261678308.index
+2220666312.index
+3040981853.index
